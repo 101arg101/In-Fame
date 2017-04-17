@@ -338,3 +338,20 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+
+.input-display, .output-display {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.input-display span, .output-display span {
+  display: inline-block;
+  background-color: black;
+  border-radius: 999px;
+  border: 2px solid #888;
+  width: 1em;
+  height: 1em;
+}
