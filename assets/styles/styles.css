@@ -345,6 +345,7 @@ img::-moz-selection {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  font-size: 0;
 }
 
 .input-display span, .output-display span {
@@ -352,6 +353,8 @@ img::-moz-selection {
   background-color: black;
   border-radius: 999px;
   border: 2px solid #888;
-  width: 1em;
-  height: 1em;
+  font-size: 15px;
+  width: 15px;
+  height: 15px;
+  margin: 3px;
 }

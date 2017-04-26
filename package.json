@@ -18,6 +18,7 @@
     "grunt-contrib-watch": "1.0.0",
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.5.2",
+    "hirez.js": "^1.0.1",
     "include-all": "^1.0.0",
     "rc": "1.0.1",
     "sails": "~0.12.7",
